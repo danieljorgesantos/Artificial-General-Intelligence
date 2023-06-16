@@ -1,6 +1,7 @@
 class MindGraph:
     def __init__(self):
         self.mind = {}
+        self.state = {}
 
     def add_cell(self, u, v):
         if u in self.mind:
@@ -18,6 +19,9 @@ class MindGraph:
             return self.mind[u]
         else:
             return []
+        
+    def snapshot(self):
+        pass
 
 # Create an instance
 mind = MindGraph()
