@@ -19,7 +19,7 @@ class MindGraph:
         else:
             return []
 
-# Create an instance of the UndirectedGraph class
+# Create an instance
 mind = MindGraph()
 
 # Add edges to the graph
